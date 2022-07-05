@@ -1,0 +1,29 @@
+.register {
+  background-color: #fff;
+  background-image: url('../images/abstract.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 70px;
+  margin: 0;
+}
+
+.register-row {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 10%);
+  border-radius: 20px;
+  /* height: 430px; */
+  width: 88%;
+}
+
+.signup-img {
+  object-fit: contain;
+  height: 600px;
+  width: 100%;
+}
+.register-form {
+  /* border-right: 1px solid #ddd; */
+  padding: 80px;
+}

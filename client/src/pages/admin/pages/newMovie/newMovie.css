@@ -1,0 +1,68 @@
+.edit-movie {
+  padding: 20px;
+}
+
+.addMovieTitleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.addMovieTitle {
+  flex: 1;
+  font-size: 40px;
+}
+
+.addMovieInfoBottom {
+  margin-top: 10px;
+}
+
+.addMovieBottom {
+  padding: 20px;
+  margin: 20px;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.addMovieForm {
+  display: flex;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.addMovieFormLeft,.addMovieFormRight  {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.addMovieFormLeft>label,.addMovieFormRight>label {
+  margin-bottom: 10px;
+  color: gray;
+  font-weight: 600;
+}
+
+.addMovieFormLeft>input,.addMovieFormRight>input,.addMovieFormLeft>textarea {
+  margin-bottom: 10px;
+  border: none;
+  padding: 5px;
+  border-bottom: 1px solid gray;
+}
+
+.addMovieFormLeft>select,.addMovieFormRight>select {
+  margin-bottom: 10px;
+}
+
+.addMovieButton {
+  width: 100%;
+  margin: 30px;
+  border: none;
+  padding: 5px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: darkblue;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}

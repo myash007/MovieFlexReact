@@ -1,0 +1,217 @@
+.book-ticket-btn {
+  margin-top: 30px;
+}
+
+.book-tkt-btn {
+  opacity: 0.8;
+  font-size: 20px;
+}
+
+.movie-form {
+  background-color: aliceblue;
+  border-radius: 20px;
+  height: 570px;
+  overflow: scroll;
+}
+
+.theaterNames {
+  width: 600px;
+}
+
+.show-time {
+  margin-left: -40px;
+}
+
+.show-time li {
+  border: 1px solid black;
+  border-radius: 30px;
+  padding: 5px;
+  color: black;
+  display: inline-block;
+  margin-right: 50px;
+  margin-bottom: 10px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Exo+2&display=swap');
+
+/* *,
+*::after,
+*::before {
+  box-sizing: border-box;
+} */
+
+/* body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Exo 2', sans-serif;
+  background: #222222;
+  color: white;
+  font-size: 14px;
+
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+} */
+
+.App {
+  text-align: center;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  background: #222222;
+  color: #fff;
+}
+
+.Movies {
+  margin-bottom: 24px;
+}
+
+.Movies select {
+  appearance: none;
+  background: white;
+  font-size: 14px;
+  margin-left: 12px;
+  border-radius: 4px;
+  padding: 6px 24px;
+}
+
+.ShowCase {
+  margin: 0 0 48px;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  background: #3b3b3b;
+  padding: 12px;
+  border-radius: 4px;
+  color: #7e7e7e;
+}
+
+.ShowCase li {
+  margin: 0 12px;
+}
+
+.Cinema {
+  margin-bottom: 18px;
+  perspective: 400px;
+
+  display: grid;
+  place-items: center;
+  grid-gap: 24px;
+}
+
+.Cinema .screen {
+  height: 70px;
+  background: #ddd;
+  width: 50%;
+  transform: rotateX(-30deg) scale(1.1);
+  box-shadow: 0 3px 10px 2px;
+}
+
+.Cinema .seats {
+  display: grid;
+  grid-gap: 6px;
+  grid-template-columns: repeat(8, min-content);
+  align-items: center;
+}
+
+.Cinema .seats .seat:nth-of-type(8n + 2) {
+  margin-right: 12px;
+}
+
+.Cinema .seats .seat:nth-of-type(8n + 6) {
+  margin-right: 12px;
+}
+
+.Cinema .seats .seat:not(.occupied):hover,
+.Cinema .seats .seat:not(.occupied):focus {
+  cursor: pointer;
+  background: #c1eac5;
+  transform: scale(1.2);
+}
+
+.Cinema .seats .seat.selected::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 2px;
+  width: 12px;
+  height: 12px;
+  border-radius: 100%;
+  background: transparent;
+  border: 1px solid #7bc47f;
+  animation: show-off 0.8s;
+  visibility: hidden;
+}
+
+@keyframes show-off {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+    visibility: visible;
+  }
+
+  100% {
+    transform: scale(3);
+    opacity: 0;
+  }
+}
+
+.seat {
+  display: inline-block;
+  background: #626262;
+  width: 16px;
+  height: 12px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+
+  position: relative;
+  top: 1px;
+}
+
+.seat.selected {
+  background: #7bc47f !important;
+}
+
+.seat.occupied {
+  background: #cfcfcf;
+}
+
+.info .count {
+  color: #7bc47f;
+}
+
+.info .total {
+  color: #7bc47f;
+}
+input[type='radio'] {
+  visibility: hidden;
+}
+.seats-selected {
+  color: #000;
+}
+
+.book-ticket-form {
+  /* border-right: 1px solid #ddd; */
+  padding: 50px;
+}
+.bt-movie-name-link:hover {
+  text-decoration: none;
+}
+
+.displaySeatSelection {
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  padding: 8px;
+  margin: 8px;
+
+  background-color: #20bf55;
+  background-image: linear-gradient(315deg, #20bf55 0%, #01baef 74%);
+  border: 1px solid #fff;
+  color: #fff;
+  text-align: center;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 10%);
+  font: 12px Arial, sans-serif;
+}

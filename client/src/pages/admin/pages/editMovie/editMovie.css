@@ -1,0 +1,126 @@
+.edit-movie {
+  flex: 4;
+  padding: 20px;
+}
+
+.movieTitleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.movieAddButton {
+  width: 80px;
+  border: none;
+  padding: 5px;
+  background-color: teal;
+  color: white;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.movieTop {
+  padding: 20px;
+  margin: 20px;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.movieInfoImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.movieInfoTop {
+  display: flex;
+  align-items: center;
+}
+
+.editMovieTitle{
+font-size: 40px;
+}
+
+.movieName {
+  font-weight: 600;
+}
+
+.movieInfoBottom {
+  margin-top: 10px;
+}
+
+.movieInfoItem {
+  width: 200px;
+  display: flex;
+}
+
+.movieInfoValue {
+  font-weight: 300;
+  margin-left: 10px;
+}
+
+.movieBottom {
+  padding: 20px;
+  margin: 20px;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.movieForm {
+  margin-top: 20px;
+}
+
+.movieFormLeft {
+  display: flex;
+  flex-direction: column;
+}
+
+.movieFormLeft > label {
+  margin-bottom: 10px;
+  color: gray;
+}
+
+.movieFormLeft > input {
+  margin-bottom: 10px;
+  border: none;
+  padding: 5px;
+  border-bottom: 1px solid gray;
+}
+
+.movieFormLeft >select{
+  margin-bottom: 10px;
+}
+
+.movieUploadImg{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.movieFormRight{
+  width: 200px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.movieUpload{
+  display: flex;
+  align-items: center;
+}
+
+.movieButton{
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: darkblue;
+  color:white;
+  font-weight: 600;
+  cursor: pointer;
+}

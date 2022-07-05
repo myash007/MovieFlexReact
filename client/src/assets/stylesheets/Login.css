@@ -1,0 +1,29 @@
+.login {
+  /* background-color: #fff; */
+  background-image: url('../images/abstract-2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 70px;
+  margin: 0;
+}
+
+.login-row {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 10%);
+  border-radius: 20px;
+  /* height: 430px; */
+  width: 88%;
+}
+
+.login-img {
+  object-fit: contain;
+  height: 500px;
+  width: 100%;
+}
+.login-form {
+  /* border-right: 1px solid #ddd; */
+  padding: 80px;
+}

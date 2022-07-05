@@ -1,0 +1,44 @@
+.movieList {
+    flex: 4;
+}
+
+/* .movieListItem {
+    display: flex;
+    align-items: center;
+} */
+
+.movieListImg {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.movieListEdit {
+    color: green;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.movieListDelete {
+    color: red;
+    cursor: pointer;
+}
+
+.movieAddButton {
+    width: 140px !important;
+    border: none;
+    padding: 5px;
+    background-color: teal;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.movieTitleContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

@@ -1,0 +1,46 @@
+.searchDiv {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.filter_movie {
+  width: 70%;
+  height: 50%;
+  border-radius: 50px;
+  font-size: 30px;
+  font-family: 'Nunito';
+  color: #424242;
+  font-weight: 500;
+  text-align: center;
+}
+
+.tableDisplay {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tableBody {
+  font-size: 18px;
+}
+
+.searchmovieImg {
+  object-fit: contain;
+  height: 200px;
+  width: 150px;
+}
+.s-movieTitle {
+  text-decoration: none;
+  color: black;
+}
+.s-movieTitle:hover {
+  text-decoration: none;
+  color: black;
+}
+.main-pagination {
+  text-align: center;
+}
