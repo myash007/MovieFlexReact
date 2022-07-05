@@ -5,6 +5,8 @@
 
 MovieFlex is a web applciation for booking a movie ticket online.It includes user authentication with the proper signup & login functionality. It contains a search functionality to make it more user friendly where user can search movies based on movie name. Also, it provides easy ticket booking system with getting proper contact details & payment details from user. It also has Admin Portal where admin can do data manipulation on movie and user by performing CRUD operation. 
 
+### Live Link : https://movieflexcanada.netlify.app/
+
 ### List of Features:
 
 Signin/Signup with Authentication
